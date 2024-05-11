@@ -7,7 +7,9 @@
         "vscode": {
             "extensions": [
                 "Angular.ng-template",
-                "ms-azuretools.vscode-docker"
+                "ms-azuretools.vscode-docker",
+                "github.copilot",
+                "github.copilot-chat"
             ],
             "settings": {
                 "terminal.integrated.shell.linux": "/bin/bash"
