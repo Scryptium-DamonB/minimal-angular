@@ -1,0 +1,16 @@
+{
+    "name": "Angular Dev Container",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [4200],
+    "postCreateCommand": "npm install",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Angular.ng-template"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            }
+        }
+    }
+}
