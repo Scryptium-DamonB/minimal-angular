@@ -6,7 +6,8 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "Angular.ng-template"
+                "Angular.ng-template",
+                "ms-azuretools.vscode-docker"
             ],
             "settings": {
                 "terminal.integrated.shell.linux": "/bin/bash"
